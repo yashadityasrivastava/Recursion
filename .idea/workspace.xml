@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6611ff82-f838-4c80-a465-6ff54524d61a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="6611ff82-f838-4c80-a465-6ff54524d61a" name="Changes" comment="Adding PrintName() method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Basic_Problems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic_Problems.java" afterDir="false" />
     </list>
@@ -61,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657843431238</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding PrintName() method">
+      <created>1657847248021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657847248021</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,5 +97,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding PrintName() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding PrintName() method" />
   </component>
 </project>
