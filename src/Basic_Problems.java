@@ -9,6 +9,7 @@ public class Basic_Problems {
         PrintFirstN_Num(1,n);
         PrintFirstN(n);
         Print_N_to1(n);
+        PrintNto1(1,n);
 
 
     }
@@ -29,7 +30,7 @@ public class Basic_Problems {
         PrintFirstN_Num(i+1,n);
     }
 
-    //Print first n numbers from 1 to n
+    //Print first n numbers from 1 to n backtrack  --- print increasing
     public static void PrintFirstN(int n ){
         if( n < 1)
             return ;
@@ -37,7 +38,7 @@ public class Basic_Problems {
         System.out.println(n);
     }
 
-    //Print N to 1
+    //Print N to 1  --- print decreasing
     public  static void Print_N_to1(int n ){
         if(n == 0){
             return;
@@ -46,6 +47,13 @@ public class Basic_Problems {
         Print_N_to1(n-1);
     }
 
+    //Print first n numbers from n to 1 backtrack
+    public static void PrintNto1(int i , int n){
+        if( i > n)
+            return;
+        PrintNto1(i+1,n);
+        System.out.println(i);
+    }
 
 
 }
